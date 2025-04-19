@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RC4 Encryption</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>RC4 Encryption</h1>
+    <form id="rc4-form">
+      <label for="plaintext">Plaintext:</label>
+      <textarea id="plaintext" placeholder="Masukan text di sini"></textarea>
+
+      <label for="key">Key:</label>
+      <input type="text" id="key" placeholder="Masukan kunci" />
+
+      <button type="button" id="encrypt-btn">Encrypt</button>
+      <button type="button" id="decrypt-btn">Decrypt</button>
+    </form>
+
+    <h2>Output:</h2>
+    <textarea id="output" readonly placeholder="Keluaran text"></textarea>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

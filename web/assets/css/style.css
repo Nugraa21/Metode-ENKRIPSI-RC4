@@ -1,0 +1,85 @@
+*{
+  color: #ffffff;
+  /* padding: 0; */
+  /* margin: 0; */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #474747; /* Warna latar belakang gelap */
+  color: #ffffff; /* Warna teks terang */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #2a2a2a; /* Warna latar belakang container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Bayangan lebih gelap */
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff; /* Warna teks judul */
+  text-shadow: 0px 10px 10px rgb(16, 16, 16);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #ffffff; /* Warna label */
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #5c8f5b; /* Border yang gelap */
+  border-radius: 4px;
+  background-color: #2c2c2c; /* Latar belakang input */
+  color: #ffffff; /* Warna teks input */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#encrypt-btn {
+  background: #388e3c; /* Warna hijau untuk tombol */
+  color: #ffffff;
+}
+
+#decrypt-btn {
+  background: #d32f2f; /* Warna merah untuk tombol */
+  color: #ffffff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#output {
+  margin-top: 20px;
+  height: 40px;
+  background-color: #2c2c2c; /* Latar belakang output */
+  color: #ffffff; /* Warna teks output */
+  padding: 10px;
+  border: 1px solid #b61515; /* Border output */
+  border-radius: 4px;
+}
